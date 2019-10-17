@@ -1,0 +1,65 @@
+
+body, html {
+	background: #e9f5f5;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	margin: 0;
+	padding: 0;     
+}
+
+.wraper {
+	margin: 0 auto;
+	max-width: 40rem;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+p {
+	text-align: center;
+}
+
+input {
+	border-radius: .2rem;
+	font-size: 1rem;
+	height: 1.2rem;
+	line-height: 1.2rem;
+	margin: 1.5rem auto;
+	width: 300px;
+}
+
+.output {
+	color: #0b2c87;
+	font-size: 1.4rem;
+	font-weight: 600;
+}
+
+button {
+	background: #ccc;
+	border-radius: .2rem;
+	box-shadow: .12rem .12rem .12rem .12rem #666;
+	height: 1.8rem;
+	margin-bottom: 1.8rem;
+	margin-top: .2rem;
+	width: 6rem;
+}
+
+::-webkit-input-placeholder { 
+  	color: #d4d6d9;
+  	font-weight: 300;
+  	padding-left: .4rem;
+}
+:-ms-input-placeholder {
+  	color: #d4d6d9;
+  	font-weight: 300;
+  	padding-left: .4rem;
+}
+::placeholder {
+  	color: #d4d6d9;
+  	font-weight: 300;
+  	padding-left: .4rem;
+}
