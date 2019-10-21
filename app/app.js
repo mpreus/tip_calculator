@@ -11,7 +11,7 @@ function init() {
 			output.innerText = 'Try to enter your sum first';
 		}
 		else {
-			let vltTipValue = (vltInput * 0.1).toFixed(2);
+			let vltTipValue = Math.round( (vltInput * 0.1) );
 			vltInput < 20
 			? output.innerText = "Even if your bill is below 20 PLN, the tip lower then 2 PLN seems controversial"
 			: output.innerText = `For ${vltInput} PLN bill, suggested value of the tip is ${vltTipValue} PLN`;
@@ -27,7 +27,7 @@ function init() {
 			output.innerText = 'Try to enter your sum first';
 		}
 		else {
-			let mtTipValue = (mtInput * 0.15).toFixed(2);
+			let mtTipValue = Math.round( (mtInput * 0.15) );
 			mtInput < 14
 			? output.innerText = "Even if your bill is below 14 PLN, the tip lower then 2 PLN seems controversial"
 			: output.innerText = `For ${mtInput} PLN bill, suggested value of the tip is ${mtTipValue} PLN`;
@@ -43,7 +43,7 @@ function init() {
 			output.innerText = 'Try to enter your sum first';
 		}
 		else {
-			let hTipValue = (hInput * 0.2).toFixed(2);
+			let hTipValue = Math.round( (hInput * 0.2) );
 			hInput < 10
 			? output.innerText = "Even if your bill is below 10 PLN, the tip lower then 2 PLN seems controversial"
 			: output.innerText = `For ${hInput} PLN bill, suggested value of the tip is ${hTipValue} PLN`;
